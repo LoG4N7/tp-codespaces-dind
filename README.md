@@ -12,7 +12,7 @@
 ## Descripción del Proyecto
 Este proyecto consiste en el diseño, configuración y despliegue de un entorno de desarrollo basado en la nube utilizando **GitHub Codespaces**. El objetivo principal de la práctica es configurar un *workspace* virtualizado mediante un modelo de Plataforma como Servicio (PaaS) que permita ejecutar un servidor de pruebas **Docker in Docker (DinD)**.
 
-A través de la definición de un contenedor de desarrollo personalizado (`.devcontainer.json`), se habilita la capacidad de levantar un demonio de Docker aislado dentro del propio entorno virtual. Esto permite realizar pruebas de despliegue, testing de microservicios y prácticas de contenedores de manera segura y eficiente en la nube, sin consumir recursos locales ni comprometer la seguridad del sistema host.
+A través de la definición de un contenedor de desarrollo personalizado (`.devcontainer.json`), se habilita la capacidad de levantar un daemon de Docker aislado dentro del propio entorno virtual. Esto permite realizar pruebas de despliegue, testing de microservicios y prácticas de contenedores de manera segura y eficiente en la nube, sin consumir recursos locales ni comprometer la seguridad del sistema host.
 
 ---
 
